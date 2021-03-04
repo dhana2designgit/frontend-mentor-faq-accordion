@@ -125,13 +125,13 @@ body{
     transition: max-height 0.2s ease-out;
     margin-bottom: 10px;
 }
-#img-desktop {display:block;}
-#img-mobile {display:none;}
+.img-desktop {display:block;}
+.img-mobile {display:none;}
 
 
 @media screen and (max-width: 1200px){
-    #img-desktop {display:none;}
-    #img-mobile {display:block;}
+    .img-desktop {display:none;}
+    .img-mobile {display:block;}
     
     .card-container{
         display: block;
